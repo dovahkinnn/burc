@@ -33,7 +33,7 @@ class Yazbel(App):
                 a=source.find("p").text
                 s=a.split(".")
                 for q in s :
-                        print(q)
+                        
                         w = Label(text = q,font_size = "14sp",halign = "center")
                         self.govde.add_widget(w)
                 

@@ -5,7 +5,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 import requests
 from bs4 import BeautifulSoup
-import re
+
 class Yazbel(App):
 
 
